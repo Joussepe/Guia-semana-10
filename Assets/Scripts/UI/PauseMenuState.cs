@@ -10,12 +10,12 @@ public class PauseMenuState : UIState
         m_uiManager.pauseMenuPanel.SetActive(true);
         Time.timeScale = 0f;
         Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true; // <- recomendado mostrar el cursor
+        Cursor.visible = false;
     }
 
     public override void Exit()
     {
-        Debug.Log("Saliendo del estado de Menú de Pausa");
+        Debug.Log("Saliendo del estado de En Pausa");
         m_uiManager.pauseMenuPanel.SetActive(false);
     }
 }

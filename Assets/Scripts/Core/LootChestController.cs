@@ -2,19 +2,17 @@ using UnityEngine;
 
 public class LootChestController : MonoBehaviour, IInteractable
 {
-    private bool _isOpened = false;
+    private bool _isOpen = false;
 
     public void Interact()
     {
-        if (_isOpened)
+        if (_isOpen)
         {
-            Debug.Log("Este cofre ya ha sido abierto.");
+            Debug.Log("Cofre ya está abierto.");
             return;
         }
 
-        _isOpened = true;
-        Debug.Log("¡Has abierto el cofre y encontrado un tesoro!");
-
-        // Aquí instanciarías un ítem, añadirías oro al inventario, etc.
+        _isOpen = true;
+        Debug.Log("Cofre abierto! Has obtenido un tesoro.");
     }
 }

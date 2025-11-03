@@ -9,9 +9,9 @@ public class MainMenuState : UIState
         Debug.Log("Entrando al estado de Menú Principal");
         m_uiManager.mainMenuPanel.SetActive(true);
         Time.timeScale = 0f;
-        Cursor.lockState = CursorLockMode.None;  // <- corregido
+        Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
-    }
+    }      
 
     public override void Exit()
     {
