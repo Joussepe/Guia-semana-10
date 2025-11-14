@@ -16,7 +16,7 @@ Aquí implementamos una IA basada en el **Patrón State**, un sistema de aturdim
 | Miembro | Rol | Descripción |
 |--------|------|-------------|
 | **Camargo Ambicho Joussepe Josue** | Arquitecto de IA | Implementación del Patrón State, creación del *StunState*, lógica del AIController. |
-| **Rojas Ortis Franklin** | Diseñador de Comportamiento | Configuración del enemigo, Waypoints, valores de búsqueda, velocidad y ajustes de *stunDuration*. |
+| **Rojas Ortiz Franklin** | Diseñador de Comportamiento | Configuración del enemigo, Waypoints, valores de búsqueda, velocidad y ajustes de *stunDuration*. |
 
 ---
 
